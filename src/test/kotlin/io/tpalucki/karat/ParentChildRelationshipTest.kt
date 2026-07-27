@@ -8,9 +8,26 @@ class ParentChildRelationshipTest {
 
     @Test
     fun forEmptyArrayShouldReturnEmptyList() {
-        val result = parentChildRelationship.findNodesByParentCount(emptyArray())
+        val result = parentChildRelationship.findNodesWithZeroAndOneParents(emptyArray())
 
-        assertEquals(emptyList<Int>(), result.first)
-        assertEquals(emptyList<Int>(), result.second)
+        assertEquals(emptyList<Int>(), result[0])
+        assertEquals(emptyList<Int>(), result[1])
+    }
+
+    @Test
+    fun parentsShouldAlsoBeCalculatedAsIndividuals() {
+        val input =
+            arrayOf(
+                intArrayOf(0, 2),
+                intArrayOf(0, 1),
+                intArrayOf(2, 3),
+            )
+
+        val result = parentChildRelationship.findNodesWithZeroAndOneParents(input)
+
+        // 0 parents
+        assertEquals(listOf(0), result[0])
+        // 1 parent
+        assertEquals(listOf(1, 2, 3), result[1])
     }
 }
