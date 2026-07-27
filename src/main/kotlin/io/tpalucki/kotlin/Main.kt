@@ -1,4 +1,4 @@
-package io.tpalucki
+package io.tpalucki.kotlin
 
 fun main(args: Array<String>) {
     println("Hello World!")

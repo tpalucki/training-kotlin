@@ -3,6 +3,7 @@ package io.tpalucki.coroutines
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlin.time.Duration.Companion.milliseconds
 
 fun main(args: Array<String>) {
     println("Coroutines Playground")
@@ -11,7 +12,7 @@ fun main(args: Array<String>) {
         // 1. Launching a coroutine
         launch {
             // CoroutineScope builder extension function
-            delay(1000L)
+            delay(duration = 1000L.milliseconds)
 
             // 3. After delay - coroutine resumes and executes this code
             println("delayed - World from coroutine!")
