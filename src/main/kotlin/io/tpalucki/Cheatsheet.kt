@@ -1,11 +1,14 @@
 package io.tpalucki
 
+import kotlin.text.substring
+
 class Cheatsheet {
     fun a() {
         // set, list, map
         mutableSetOf<String>()
         mutableListOf<Int>()
         mutableMapOf<Int, MutableList<Int>>()
+        val arr: IntArray = intArrayOf(1, 2, 3)
 
         // set
         val set = mutableSetOf<String>()
@@ -39,6 +42,9 @@ class Cheatsheet {
         queue.removeLast()
         queue.remove(5)
 
-        val partsList: List<String> = "yahoo.com".split(".")
+        // strings
+        val partsList: List<String> = "google.com".split(".")
+        "google".indexOf("google")
+        "google.com".substring(0) // first including
     }
 }

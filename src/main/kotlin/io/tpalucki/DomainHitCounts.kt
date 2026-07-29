@@ -14,6 +14,9 @@ class DomainHitCounts {
     // Write a function subdomainVisits that takes an array of count-paired domain strings
     // (e.g., "900 google.mail.com") and returns an array/list of count-paired domains representing
     // the aggregated visit counts for every domain and subdomain.
+    //
+    // Time complexity O(N x L) -> O(N)
+    // Space complexity O(N X L X)
     fun subdomainVisits(cpdomains: Array<String>): List<String> {
         // separate count / domain by " "
         // count to integer()
@@ -27,13 +30,12 @@ class DomainHitCounts {
             val count = countAndDomainParts[0].toInt()
             val domain = countAndDomainParts[1]
 
-            val sumdomainsParts = domain.split(".")
-
             // mail.google.com
             // google.com
             // com
             var currentDomain = domain
             while (currentDomain.isNotEmpty()) {
+                // max depth
                 domainsCount[currentDomain] = domainsCount.getOrDefault(currentDomain, 0) + count
 
                 val firstDotIndex = currentDomain.indexOf(".")
