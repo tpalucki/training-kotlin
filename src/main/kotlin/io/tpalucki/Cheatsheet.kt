@@ -44,6 +44,8 @@ class Cheatsheet {
 
         // strings
         val partsList: List<String> = "google.com".split(".")
+        partsList.subList(0, 1) // from inclusive - to exclusive
+
         "google".indexOf("google")
         "google.com".substring(0) // first including
     }
