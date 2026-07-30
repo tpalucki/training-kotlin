@@ -1,4 +1,4 @@
-package io.tpalucki
+package io.tpalucki.karat
 
 // Recursive DFS on Graph
 // Time: O(V + E) | Space: O(V) stack depth

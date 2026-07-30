@@ -1,4 +1,4 @@
-package io.tpalucki
+package io.tpalucki.karat
 
 import kotlin.text.substring
 

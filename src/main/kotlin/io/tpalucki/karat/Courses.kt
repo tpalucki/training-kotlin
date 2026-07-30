@@ -1,4 +1,4 @@
-package io.tpalucki
+package io.tpalucki.karat
 
 class Courses {
     // [prereq, course]

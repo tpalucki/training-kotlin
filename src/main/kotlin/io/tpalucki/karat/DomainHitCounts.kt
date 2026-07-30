@@ -1,4 +1,4 @@
-package io.tpalucki
+package io.tpalucki.karat
 
 /**
  * You are given a count-paired domain list where each element represents the total visits to a specific domain.
