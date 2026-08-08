@@ -1,4 +1,6 @@
-package io.tpalucki.karat
+package io.tpalucki.interview.karat_hsbc
+
+import kotlin.collections.iterator
 
 class SecurityBadges2 {
     /**

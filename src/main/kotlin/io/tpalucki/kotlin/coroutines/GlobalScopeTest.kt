@@ -1,4 +1,4 @@
-package io.tpalucki.coroutines
+package io.tpalucki.kotlin.coroutines
 
 import kotlinx.coroutines.*
 import kotlin.time.Duration.Companion.milliseconds

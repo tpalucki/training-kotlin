@@ -1,6 +1,6 @@
 package io.tpalucki
 
-import io.tpalucki.karat.DomainHitCounts
+import io.tpalucki.interview.karat_hsbc.DomainHitCounts
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 

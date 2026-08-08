@@ -1,4 +1,4 @@
-package io.tpalucki.karat
+package io.tpalucki.interview.karat_hsbc
 
 /**
  * You are given a count-paired domain list where each element represents the total visits to a specific domain.

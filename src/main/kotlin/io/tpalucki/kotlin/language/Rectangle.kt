@@ -1,4 +1,4 @@
-package io.tpalucki.kotlin
+package io.tpalucki.kotlin.language
 
 // Properties can be listed in the body class declaration
 class Rectangle(

@@ -1,5 +1,6 @@
 package io.tpalucki.karat
 
+import io.tpalucki.interview.karat_hsbc.AccessLogsAndSecurityBadges
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Disabled

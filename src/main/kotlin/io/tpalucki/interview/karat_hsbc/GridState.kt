@@ -1,4 +1,4 @@
-package io.tpalucki.karat
+package io.tpalucki.interview.karat_hsbc
 
 /**
  * 📌 Problem Description

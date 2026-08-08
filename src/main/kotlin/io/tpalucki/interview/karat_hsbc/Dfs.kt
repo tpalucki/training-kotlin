@@ -1,4 +1,4 @@
-package io.tpalucki.karat
+package io.tpalucki.interview.karat_hsbc
 
 // Recursive DFS on Graph
 // Time: O(V + E) | Space: O(V) stack depth

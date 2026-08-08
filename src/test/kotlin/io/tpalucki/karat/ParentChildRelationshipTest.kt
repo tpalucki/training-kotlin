@@ -1,5 +1,6 @@
 package io.tpalucki.karat
 
+import io.tpalucki.interview.karat_hsbc.ParentChildRelationship
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Nested

@@ -1,4 +1,4 @@
-package io.tpalucki.karat
+package io.tpalucki.interview.karat_hsbc
 
 /**
  * Suppose we have input data representing parent-child relationships as pairs of [parent, child].
